@@ -1,0 +1,159 @@
+/*General selectors*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: Open Sans, sans-serif;
+    margin: 2px;
+    background-color: #fff;
+    padding: 50px;
+    height: 100vw;
+    border-top: black solid 10px;
+    overflow: auto;
+}
+
+#main_category {
+    font-weight: 100;
+    font-size: x-small;
+    color: #73808d;
+}
+
+ol{
+    list-style-type: none;
+    right: 100px;
+    font-size: small;
+    font-weight: 100;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+  
+/*header selectors*/
+
+.header {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 999;
+    padding-top: -50px;
+}
+
+
+img {
+    width: 200px;
+    clip-path: circle(50px);
+    padding-right: 20px;
+    margin-right: 200px;
+    display: flexbox;
+    justify-content: flex-end;
+}
+
+#personal_name, #current_position {
+    padding-left: 20px;
+}
+
+#personal_name {
+    margin-bottom: 0;
+}
+
+#current_position{
+    font-weight: 100;
+    margin-top: 0;
+    font-size: large;
+}
+
+/*Left part of the page*/
+#main_info {
+    position: relative;
+    float: left;
+    max-width: 60%;
+    margin-right: 100px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+#period {
+    color: #73808d;
+    font-weight: 100;
+    font-size: xx-small;
+}
+
+#position_name {
+    font-size: 20px;
+}
+
+#company_name {
+    font-weight: 100;
+    font-size: small;
+}
+
+.description {
+    font-size: small;
+    font-weight: 100;
+}
+
+.work_dev {
+    padding-bottom: 10px;
+    width: 50%;
+}
+
+#content_page {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*Right side of the page*/
+#extra_info {
+    position: relative;
+    float: left;
+    max-width: 100%;
+    color: #73808d;
+    margin-right: 100px;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+.skill_class {
+    padding-left: 20px;
+    margin-top: 50px;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+
+
+/*For transition*/
+
+.color_green {
+    background-color: rgb(154, 221, 154);
+}
+
+.color_blue {
+    background-color: rgb(91, 147, 235);
+}
+
+.color_pink {
+    background-color: pink;
+}
+
+.color_orange {
+    background-color: orange;
+}
+
+.color_yellow {
+    background-color: yellow;
+}
+
+
+
+
+
+
