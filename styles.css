@@ -56,11 +56,11 @@ img {
     justify-content: flex-end;
 }
 
-#personal_name, #current_position {
+#personal_names, #current_position {
     padding-left: 20px;
 }
 
-#personal_name {
+#personal_names {
     margin-bottom: 0;
 }
 
