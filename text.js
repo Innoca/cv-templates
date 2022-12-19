@@ -1,6 +1,6 @@
 // get the navigation bar element 
 
-var navBar = document.getElementById("navigation_bar")
+var navBar = document.getElementById("personal_name")
 
 // add a click event listener to the navigation bar
 
